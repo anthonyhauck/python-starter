@@ -12,3 +12,13 @@ The `dotnet-starter` project is a dotnet core 2.0 library project which referenc
 - Fork this repository.
 - Clone your fork of the repository locally.
 - Edit the `hypar.json` to describe your function.
+
+## Test
+Although not a strict requirement of Hypar, your code should have tests. The python-starter project uses Python's `unittest` module. To run the tests you can do the following:
+```
+cd test
+python -m unittest
+```
+
+## Preview
+Hypar functions generate geometry in the form of [glTF](https://www.khronos.org/gltf/) models. See the unit tests for a test which generates a `.glb` file that can be used to preview geometry. GlTF models can be previewed using the [online glTF viewer](https://gltf-viewer.donmccurdy.com/).
